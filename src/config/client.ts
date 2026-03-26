@@ -31,7 +31,7 @@ export const client = {
 
   // Reviews
   googleRating: "5.0",
-  reviewCount: "0",
+  reviewCount: "6",
 
   // Services
   services: [
@@ -79,9 +79,12 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Charlie King", rating: 5, text: "Just Lawn Mowing recently completed a major landscaping project for us and the quality is exceptional. The team worked through some challenging weather but still delivered on time. Genuinely thrilled with the outcome.", date: "a year ago" },
+    { name: "Poppy E.", rating: 5, text: "Just had Just Lawn Mowing finish our garden project in London. What a difference! The team were lovely to have around — respectful of our property, cleaned up after themselves, and produced an amazing result.", date: "8 months ago" },
+    { name: "Luke Dixon", rating: 5, text: "We had Just Lawn Mowing come out to completely transform our back garden and we couldn't be happier. They listened to exactly what we wanted and delivered beyond our expectations. The attention to detail was incredible — every edge, every plant pl...", date: "3 months ago" },
+    { name: "Helen Hughes", rating: 5, text: "Used Just Lawn Mowing for landscaping work at our property in London. The team were friendly, professional and clearly know their trade inside out. The finished result exceeded what we'd imagined. Will definitely be using them again.", date: "2 months ago" },
+    { name: "Elaine B.", rating: 5, text: "Had a wonderful experience with Just Lawn Mowing. From the design phase right through to the final clean-up, everything was handled brilliantly. The new patio and planting scheme look amazing.", date: "6 months ago" },
+    { name: "Grace Wright", rating: 5, text: "Would give Just Lawn Mowing 10 stars if I could. They transformed our tired-looking garden into a beautiful, functional space. The team were a pleasure to deal with and the price was very competitive for London.", date: "5 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
